@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
     } 
     
     else {   let escolhaOSexo = document.getElementsByName('escolha');
-
+  
              let idadeDaPessoa = anoDeNascimento - Number(campoNumero.value);
 
              let generoDaPessoa = '';
@@ -61,7 +61,7 @@ button.addEventListener('click', () => {
             } 
 
             else if (idadeDaPessoa >= 12 && idadeDaPessoa < 18) {
-                imagem.setAttribute('src', './img/adolescente.menina.jpg')
+                imagem.setAttribute('src', './img/adolescente-menina.jpg')
                 imagem.setAttribute('width', '400px')
             }
 
@@ -73,9 +73,11 @@ button.addEventListener('click', () => {
 
         }
         
-        imagem.style.alignContent = 'center'
-        imagem.style.display = 'flex'
-        resultadoDiv.innerHTML = `Detectamos ${generoDaPessoa} com ${idadeDaPessoa} anos.`
+        imagem.style.alignContent = 'center';
+        imagem.style.display = 'flex';
+        resultadoDiv.style.color = 'red';
+        resultadoDiv.style.fontSize = '23px';
+        resultadoDiv.innerHTML = `Detectamos ${generoDaPessoa} com ${idadeDaPessoa} anos.`;
         resultadoDiv.appendChild(imagem);
     }
 })
