@@ -7,7 +7,7 @@ Para está realizando a criação desse projeto aprimorei meu conhecimento e hab
 Para o projeto funcionar de forma certa, basta você colocar o ano do seu nascimento(ou de uma pessoa qualquer que você quer saber a idade) na entrada de texto e selecionar o sexo através do input radio(as bolinhas vazias) e apertar no botão "VERIFICAR". 
 
 
-![imagem](../../../Documents/oCam/age-checker.png)
+[IMAGEM](assets/age-checker.png)
 
 # LINK PARA EXECUTAR O PROJETO 
 
