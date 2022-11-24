@@ -44,21 +44,6 @@ button.addEventListener('click', () => {
                 imagem.setAttribute('width', '400px')
             }
 
-            else if (idadeDaPessoa >= 24 && idadeDaPessoa < 40) {
-                imagem.setAttribute('src', './img/adolescente-meninos.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
-            else if (idadeDaPessoa >= 40 && idadeDaPessoa < 60) {
-                imagem.setAttribute('src', './img/adolescente-meninos.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
-            else if (idadeDaPessoa >= 60 && idadeDaPessoa < 80) {
-                imagem.setAttribute('src', './img/adolescente-meninos.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
              else {
                 imagem.setAttribute('src', './img/homem-adulto.jpg')
                 imagem.setAttribute('width', '400px')
@@ -85,25 +70,6 @@ button.addEventListener('click', () => {
                 imagem.setAttribute('width', '400px')
             }
 
-            else if (idadeDaPessoa >= 18 && idadeDaPessoa < 24) {
-                imagem.setAttribute('src', './img/adolescente-menina.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
-            else if (idadeDaPessoa >= 24 && idadeDaPessoa < 40) {
-                imagem.setAttribute('src', './img/adolescente-menina.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
-            else if (idadeDaPessoa >= 40 && idadeDaPessoa < 60) {
-                imagem.setAttribute('src', './img/adolescente-menina.jpg')
-                imagem.setAttribute('width', '400px')
-            }
-
-            else if (idadeDaPessoa >= 60 && idadeDaPessoa < 80) {
-                imagem.setAttribute('src', './img/adolescente-menina.jpg')
-                imagem.setAttribute('width', '400px')
-            }
 
             else {
                 imagem.setAttribute('src', './img/mulher-adulta.jpg')
